@@ -2,7 +2,10 @@
 import requests
 
 # Define the URL of the website to scrape
+
 URL = 'https://www.uni-hildesheim.de/fb3/institute/iwist/veranstaltungen/dess-2022-1/'
+# For super simple Hello world ESSIS 2024 example uncomment following line (delete first character #)
+#URL = 'https://oziz.ffos.hr/helloessis2024.txt'
 
 # Send a GET request to the specified URL and store the response in 'resp'
 resp = requests.get(URL)
