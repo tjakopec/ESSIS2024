@@ -64,7 +64,7 @@ print('|\\---/|' + '\n' +
       ' \\_^_/')
 # All letters UPPERCASE
 print('lorem ipsum'.upper())
-# print two numbers separeted with space
+# print two numbers separated with space
 print(2, 2)
 # print names with comma as separator
 print('Dora', 'Lada', 'Mara', sep=', ')
@@ -82,7 +82,7 @@ print('Tomislav', end='.')
 x = 3.8 + 2  # adding
 print(x)
 
-x = 9 - 3  # substracting
+x = 9 - 3  # subtracting
 print(x)
 
 x = 3.8 * 2.737363635  # multiplying
