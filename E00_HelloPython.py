@@ -7,12 +7,12 @@ print('Hello world')
 
 # variable
 # integer (int)
-godine = 2
-print(id(godine))
-print(godine == 2)
-print(type(godine))
+years = 2
+print(id(years))
+print(years == 2)
+print(type(years))
 
-# Other varible types
+# Other variable types
 # str
 name = 'Marijana'
 print('name=', name, 'is', type(name))
@@ -58,13 +58,13 @@ print('First line\nSecond line')
 print('|\\---/|\n| o_o |\n \\_^_/')
 # format print
 print("Python".center(80))
-# text concatination
+# text concatenation
 print('|\\---/|' + '\n' +
       '| o_o |' + '\n' +
       ' \\_^_/')
-# All letters UPERCASE
+# All letters UPPERCASE
 print('lorem ipsum'.upper())
-# print two numberd separeted with space
+# print two numbers separeted with space
 print(2, 2)
 # print names with comma as separator
 print('Dora', 'Lada', 'Mara', sep=', ')
@@ -82,7 +82,7 @@ print('Tomislav', end='.')
 x = 3.8 + 2  # adding
 print(x)
 
-x = 9 - 3  # substacting
+x = 9 - 3  # substracting
 print(x)
 
 x = 3.8 * 2.737363635  # multiplying
@@ -97,7 +97,7 @@ print(x)
 x = 1 // 3  # integer division
 print(x)
 
-x = 2 ** 3  # potentiation
+x = 2 ** 3  # math function power
 print(x)
 
 #
@@ -133,7 +133,7 @@ adult = years >= 18
 if adult:
     print(name, ' is adult')
 
-# more commom way
+# more common way
 if years >= 18:
     print(name, ' is adult')
 
