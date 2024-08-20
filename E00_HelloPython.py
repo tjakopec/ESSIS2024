@@ -55,13 +55,13 @@ Multiline comment
 # multiline print with new line escape char (\n)
 print('First line\nSecond line')
 # ASCII art: https://www.asciiart.eu/
-print('|\---/|\n| o_o |\n \_^_/')
+print('|\\---/|\n| o_o |\n \\_^_/')
 # format print
 print("Python".center(80))
 # text concatination
-print('|\---/|' + '\n' +
+print('|\\---/|' + '\n' +
       '| o_o |' + '\n' +
-      ' \_^_/')
+      ' \\_^_/')
 # All letters UPERCASE
 print('lorem ipsum'.upper())
 # print two numberd separeted with space
