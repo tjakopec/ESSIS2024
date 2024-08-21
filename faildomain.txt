@@ -1,0 +1,325 @@
+Fail non same domain 3 -> srce.hr  !=  www.srce.unizg.hr
+Fail connect 5 -> cocobear.hr
+Fail connect 7 -> anastajmaher.from.hr
+Fail connect 9 -> metali-benčak.hr
+Fail connect 12 -> autoinvest.hr
+Fail connect 13 -> itdomar.hr
+Fail connect 14 -> hipermedia.hr
+Fail non hr domain 21 -> kladaric.hr  !=  www.kladaric.net
+Fail connect 22 -> unicreditcorporatebanking.com.hr
+Fail non same domain 23 -> skola-nazor.hr  !=  www.os-vnazora-crikvenica.skole.hr
+Fail non hr domain 27 -> dell.com.hr  !=  www.dell.com
+Fail non hr domain 28 -> iwatches.hr  !=  www.webhouse.sk
+Fail connect 33 -> limar.hr
+Fail connect 35 -> agrokalkulator.com.hr
+Fail connect 43 -> massive-holding.hr
+Fail connect 45 -> uoig-svlah.hr
+Fail connect 46 -> obrt-racki.hr
+Fail connect 48 -> nikakvakan.from.hr
+Fail non hr domain 49 -> cameadriatic.hr  !=  www.came.com
+Fail connect 52 -> tome-doo.hr
+Fail connect 60 -> ioptika.com.hr
+Fail non hr domain 62 -> sevo.hr  !=  bsevo.com
+Fail connect 63 -> l4dance.hr
+Fail connect 65 -> advocate.hr
+Fail connect 66 -> log.hr
+Fail connect 67 -> domovanje.hr
+Fail non hr domain 68 -> baobaby.hr  !=  baobaby.shoes
+Fail connect 69 -> pizzeriapanorama.com.hr
+Fail connect 74 -> dis-co.hr
+Fail connect 76 -> datadesign.hr
+Fail non hr domain 77 -> cesty.hr  !=  www.webhouse.sk
+Fail connect 78 -> asblue.hr
+Fail non hr domain 90 -> bona.hr  !=  www.bona.com
+Fail connect 94 -> fidastra.hr
+Fail connect 101 -> gibus.hr
+Fail connect 102 -> antgroup.hr
+Fail connect 104 -> brazilianbumbum.com.hr
+Fail connect 108 -> hortikultura-luprom.hr
+Fail non same domain 109 -> genetika.hr  !=  pubweb.carnet.hr
+Fail connect 111 -> registrygate.com.hr
+Fail connect 119 -> croastro.com.hr
+Fail connect 124 -> olivetree-apartments.com.hr
+Fail connect 126 -> fratarski.hr
+Fail connect 129 -> favoritpivo.hr
+Fail connect 130 -> sutalogradnja.com.hr
+Fail connect 131 -> petrajuresic.from.hr
+Fail connect 133 -> vekausluge.hr
+Fail connect 136 -> corporisetspiritus.com.hr
+Fail connect 138 -> weddinginistria.com.hr
+Fail connect 141 -> coach2coach.hr
+Fail connect 144 -> neno-lampioni.hr
+Fail connect 146 -> goddess2b.hr
+Fail connect 150 -> ortodontica.hr
+Fail connect 151 -> matijabrcic.from.hr
+Fail connect 152 -> sneperger-cnc.hr
+Fail connect 155 -> alexbooks.hr
+Fail non hr domain 158 -> makarska-touristik.hr  !=  makarska-touristik.com
+Fail connect 160 -> tubidesign.hr
+Fail connect 173 -> jewelry.hr
+Fail connect 177 -> silcod.hr
+Fail connect 178 -> rctp.hr
+Fail connect 180 -> vrucemije.com.hr
+Fail non hr domain 181 -> ampshare.hr  !=  www.ampshare.com
+Fail connect 185 -> irundo.hr
+Fail connect 188 -> initio-haccp-iso.hr
+Fail connect 189 -> iduna.com.hr
+Fail connect 192 -> kucnimajstorluka.com.hr
+Fail non same domain 194 -> jvpčepin.hr  !=  xn--jvpepin-l6a.hr
+Fail connect 197 -> vlmr.hr
+Fail connect 200 -> seamless.hr
+Fail connect 201 -> putnikovic-vina.hr
+Fail connect 210 -> futuremaker-transforming-tobacco.com.hr
+Fail connect 211 -> pethealthclub.hr
+Fail non hr domain 213 -> dentons.hr  !=  www.dentons.com
+Fail connect 215 -> streljacki-klub-zagreb.hr
+Fail connect 218 -> fer-projekt.hr
+Fail connect 220 -> larissa-store.hr
+Fail non same domain 221 -> rođo.hr  !=  xn--roo-wqa.hr
+Fail connect 223 -> talent-core-jd.hr
+Fail connect 225 -> vodalands.hr
+Fail connect 233 -> polar-care.hr
+Fail connect 236 -> damirbelina.from.hr
+Fail connect 239 -> norwegianloyaltyco.hr
+Fail connect 242 -> philipos.hr
+Fail connect 248 -> cyberfolks.com.hr
+Fail connect 251 -> kamenolom-zakanje.hr
+Fail connect 254 -> dunko.hr
+Fail connect 257 -> greenriverwellness.hr
+Fail connect 261 -> kripto.hr
+Fail connect 264 -> budapestpark.hr
+Fail connect 265 -> sutalogradnja.hr
+Fail non hr domain 272 -> astra-adriatica.hr  !=  astra-adriatica.com
+Fail non hr domain 276 -> ubmdevelopment.hr  !=  www.ubm-development.com
+Fail connect 277 -> njaritrade.hr
+Fail connect 279 -> bga.hr
+Fail connect 280 -> vuse.hr
+Fail connect 290 -> soe.hr
+Fail connect 291 -> 5-stars.hr
+Fail non hr domain 292 -> fi16.hr  !=  fi16.carrd.co
+Fail connect 293 -> codezilla.hr
+Fail connect 302 -> hina.com.hr
+Fail non same domain 307 -> reciklopedija.hr  !=  reciklopedija.konzum.hr
+Fail connect 310 -> gylf.com.hr
+Fail non hr domain 312 -> manolab.hr  !=  www.manolaaesthetics.com
+Fail connect 314 -> korektor.hr
+Fail connect 317 -> work-master.hr
+Fail connect 318 -> stubljar.hr
+Fail connect 319 -> goteamline.hr
+Fail connect 320 -> city.hr
+Fail connect 322 -> termoinstal.hr
+Fail non same domain 324 -> ivosuste.from.hr  !=  www.vendorcomp.hr
+Fail connect 327 -> osvoji.hr
+Fail non hr domain 330 -> van-hans.hr  !=  vanhans.com
+Fail connect 332 -> educa.hr
+Fail connect 333 -> moj-odmor.hr
+Fail connect 334 -> marozon.hr
+Fail connect 343 -> futuremakerstransformingtobacco.com.hr
+Fail connect 346 -> huws.hr
+Fail connect 348 -> prima-export.hr
+Fail connect 354 -> milla-max.hr
+Fail connect 356 -> bartol-deak.from.hr
+Fail connect 358 -> josipcetin.from.hr
+Fail connect 360 -> igmark.com.hr
+Fail connect 361 -> supstrati.hr
+Fail connect 368 -> kk-kabasketball.hr
+Fail connect 370 -> jordan.com.hr
+Fail non hr domain 371 -> megabad.hr  !=  www.megabad.com
+Fail connect 372 -> expoface.hr
+Fail connect 376 -> cahun.hr
+Fail non same domain 377 -> autoremetinec.com.hr  !=  www.auto-remetinec.hr
+Fail connect 380 -> lbdigital.hr
+Fail non same domain 382 -> solgroup.hr  !=  www.solcroatia.hr
+Fail connect 384 -> fini-mini.com.hr
+Fail connect 389 -> eko-stocar.hr
+Fail non hr domain 390 -> marles.hr  !=  www.marles.com
+Fail connect 392 -> agencijazanekretnineumag.hr
+Fail connect 405 -> igorferisak.from.hr
+Fail connect 407 -> lektor.com.hr
+Fail connect 408 -> fireflycar.com.hr
+Fail connect 411 -> samo-split.hr
+Fail connect 418 -> regnumrea.hr
+Fail connect 419 -> zolinza.com.hr
+Fail connect 421 -> ssd.hr
+Fail connect 424 -> zaddeljkic.from.hr
+Fail connect 425 -> dias-usluge.hr
+Fail connect 433 -> knfusluge.hr
+Fail non hr domain 436 -> chromoden.hr  !=  chromos.eu
+Fail connect 437 -> somnomed.hr
+Fail connect 438 -> bpplus.hr
+Fail connect 439 -> bajtmetali.hr
+Fail non same domain 440 -> dječjivrtićmalasirena.hr  !=  www.xn--djejivrtimalasirena-ohc3j.hr
+Fail connect 446 -> car-silo.hr
+Fail connect 453 -> uzbunanazelenomvrhu.hr
+Fail non hr domain 457 -> entrust.hr  !=  www.entrust.com
+Fail connect 459 -> ucv.hr
+Fail non hr domain 460 -> docta.hr  !=  www.docta.novartis.com
+Fail connect 464 -> razvojna-agencija-split-rast.hr
+Fail non same domain 466 -> fotoreporteri.hr  !=  www.trebam.hr
+Fail connect 467 -> all-ics.hr
+Fail connect 468 -> connect2.com.hr
+Fail connect 469 -> livoltek.hr
+Fail connect 471 -> gossip.hr
+Fail non hr domain 474 -> haberkorn.hr  !=  www.haberkorn.com
+Fail connect 476 -> pralinebox.hr
+Fail connect 478 -> nkculinec.hr
+Fail non hr domain 482 -> hempel.hr  !=  www.hempel.com
+Fail connect 491 -> capitano.com.hr
+Fail connect 497 -> frlink.hr
+Fail connect 502 -> hcphs.hr
+Fail connect 503 -> antonija-bermanec.from.hr
+Fail connect 507 -> dvakom.hr
+Fail connect 510 -> agram-detektiv.hr
+Fail connect 512 -> rutar.hr
+Fail non same domain 515 -> chatbots.hr  !=  www.chatbot.hr
+Fail connect 518 -> masta.hr
+Fail connect 522 -> korcula.com.hr
+Fail connect 524 -> piricmontage.hr
+Fail connect 527 -> namjestaj-kurtovic.hr
+Fail connect 531 -> campana-trans.hr
+Fail non hr domain 533 -> zdravljeplus.hr  !=  www.vasezdravlje.com
+Fail connect 536 -> 123design.hr
+Fail connect 539 -> leri.hr
+Fail connect 541 -> purevision.com.hr
+Fail connect 548 -> termosc.hr
+Fail non hr domain 551 -> data-link.hr  !=  unija.com
+Fail non same domain 553 -> sb-insula.hr  !=  www.bolnicarab.hr
+Fail connect 557 -> subitus.hr
+Fail connect 559 -> danijel-petric.from.hr
+Fail connect 562 -> toko-ms.hr
+Fail connect 564 -> franko-salaj.from.hr
+Fail non same domain 567 -> apartman.hr  !=  www.apartmanija.hr
+Fail non hr domain 576 -> nammert.hr  !=  www.nammert.com
+Fail connect 578 -> oukv.hr
+Fail non same domain 579 -> mad.com.hr  !=  maxbet.hr
+Fail connect 580 -> moonflower.hr
+Fail connect 583 -> gensym.hr
+Fail non same domain 592 -> računovodstvo.com.hr  !=  xn--raunovodstvo-prb.com.hr
+Fail connect 595 -> scentsy.hr
+Fail connect 602 -> bookbeat.hr
+Fail non same domain 608 -> alfaromeotonale.hr  !=  www.alfaromeo.hr
+Fail connect 609 -> depresija.hr
+Fail connect 611 -> telecity.com.hr
+Fail connect 612 -> habiter-naturel.hr
+Fail connect 613 -> lawoffice-krunic.hr
+Fail connect 614 -> parentes-filiis.hr
+Fail connect 617 -> thefinals.hr
+Fail connect 622 -> fordbev.hr
+Fail connect 631 -> sangvina.hr
+Fail non hr domain 644 -> emtehri.hr  !=  www.emtehri.com
+Fail connect 645 -> klik-udruga.hr
+Fail non hr domain 646 -> felbermayr.hr  !=  www.felbermayr.cc
+Fail connect 652 -> ragusa-nekretnine.hr
+Fail connect 653 -> bkfortica.hr
+Fail connect 655 -> oralna-kirurgija.com.hr
+Fail connect 661 -> maangradnja.hr
+Fail connect 666 -> ljepljenje-folija-na-autostakla.com.hr
+Fail connect 674 -> hkbcv.hr
+Fail non same domain 681 -> tz-skrad.hr  !=  privatnismjestaj.hr
+Fail connect 687 -> whistleblowing.hr
+Fail connect 689 -> defi.hr
+Fail connect 692 -> conciergedoctor.com.hr
+Fail non hr domain 693 -> maco.hr  !=  www.maco.eu
+Fail connect 695 -> profesionalciplus.hr
+Fail connect 696 -> amper-split.hr
+Fail connect 707 -> expertise-ing.hr
+Fail connect 713 -> vestibultravel.hr
+Fail connect 715 -> nanobit.hr
+Fail connect 716 -> beninca.com.hr
+Fail connect 718 -> jeftinex.hr
+Fail connect 720 -> lawfirm-kanceljak.hr
+Fail non same domain 730 -> poslovni-video.hr  !=  poslovnivideo.hr
+Fail connect 737 -> malikraj.hr
+Fail non hr domain 738 -> miadria.hr  !=  www.miadria.com
+Fail connect 740 -> djecjivrticsmijesak.hr
+Fail connect 742 -> medejamedia.hr
+Fail connect 743 -> artemida-cvijece.hr
+Fail connect 753 -> josipsusak.from.hr
+Fail non hr domain 756 -> eukanuba.hr  !=  belugoplus.eu
+Fail connect 757 -> vjencanice-morgan.hr
+Fail connect 761 -> galleria-internazionale.hr
+Fail non hr domain 765 -> logi-fox.hr  !=  logifoxcom.wordpress.com
+Fail connect 770 -> lff.hr
+Fail connect 771 -> tectonica.hr
+Fail connect 774 -> fbs-promet.hr
+Fail connect 775 -> sequra.hr
+Fail non same domain 777 -> kurikul.hr  !=  www.carnet.hr
+Fail connect 779 -> kenty-adria.hr
+Fail non hr domain 789 -> mazak.hr  !=  www.mazakeu.com
+Fail non hr domain 791 -> crospot.hr  !=  crospot.net
+Fail non same domain 793 -> tehnopanelinamjestaj.hr  !=  tehnopaneli.hr
+Fail non same domain 796 -> servis-tehnoetta.hr  !=  tehno-etta.hr
+Fail non hr domain 805 -> hocuskije.hr  !=  amsterdam.1i0.eu
+Fail non same domain 808 -> os-breznicki-hum.hr  !=  os-breznicki-hum.skole.hr
+Fail non same domain 811 -> desalinizator.com.hr  !=  www.desalinizatori.hr
+Fail non same domain 815 -> zomar.hr  !=  zomarkeramika.hr
+Fail non hr domain 816 -> substral.hr  !=  www.substral.si
+Fail connect 817 -> globaltelemetrysolutions.hr
+Fail non same domain 818 -> goklo.hr  !=  kupiparfem.hr
+Fail non hr domain 819 -> adria-leader.hr  !=  adria-leader.host
+Fail connect 824 -> fusion.hr
+Fail non hr domain 827 -> dentons.com.hr  !=  www.dentons.com
+Fail non hr domain 831 -> dremel.hr  !=  www.dremel.com
+Fail non hr domain 838 -> reprintrijeka.hr  !=  www.omexprint.com
+Fail non hr domain 839 -> once.hr  !=  once.sport
+Fail non same domain 842 -> myvet.com.hr  !=  www.myvet.hr
+Fail non hr domain 853 -> cromaris.hr  !=  cromaris.com
+Fail connect 856 -> shell.com.hr
+Fail non same domain 867 -> asbis.com.hr  !=  www.asbis.hr
+Fail non same domain 871 -> t-com.com.hr  !=  sso.hrvatskitelekom.hr
+Fail non same domain 876 -> mrs-nautica.hr  !=  salona-nautica.hr
+Fail connect 879 -> sciencediet.com.hr
+Fail non hr domain 881 -> brazilembassy.hr  !=  www.gov.br
+Fail non same domain 882 -> meesenburg.hr  !=  www.blaugelb.hr
+Fail connect 886 -> pravahrana.hr
+Fail non hr domain 891 -> omegawatches.com.hr  !=  www.omegawatches.com
+Fail non hr domain 892 -> olynthia.hr  !=  olynthia.com
+Fail non same domain 918 -> t-phone.hr  !=  www.hrvatskitelekom.hr
+Fail non hr domain 919 -> ekomi.hr  !=  www.ekomi-us.com
+Fail connect 923 -> odvjetnickiuredstimac.hr
+Fail non same domain 926 -> cemex.com.hr  !=  www.cemex.hr
+Fail non hr domain 928 -> cemex.hr  !=  www.cemex.hr:443
+Fail connect 930 -> hitachi-powertools.com.hr
+Fail connect 932 -> adixbroker.hr
+Fail connect 936 -> ironbyte.hr
+Fail non same domain 939 -> platnipromet.hr  !=  exc.hr
+Fail non same domain 940 -> dejan-dukic.from.hr  !=  www.pdsvelebit.hr
+Fail non hr domain 941 -> velumnautica.hr  !=  velumnautica.com
+Fail non hr domain 944 -> permanent-studio-om.hr  !=  glam-bb.com
+Fail connect 947 -> underground.hr
+Fail connect 954 -> sankoinsen.hr
+Fail connect 955 -> kazija-projekt.hr
+Fail connect 957 -> adabel.hr
+Fail non hr domain 958 -> junghans.com.hr  !=  www.junghans.de
+Fail non hr domain 960 -> carvela.hr  !=  www.carvela.com
+Fail connect 961 -> saposib.hr
+Fail connect 964 -> exovps.com.hr
+Fail non hr domain 966 -> mymoissanite.hr  !=  mymoissanite.eu
+Fail non hr domain 967 -> egger.com.hr  !=  www.egger.com
+Fail non hr domain 970 -> shopifyplus.com.hr  !=  www.shopify.com
+Fail non hr domain 971 -> airborne.hr  !=  reckitt.com
+Fail connect 972 -> gps-fleet.com.hr
+Fail connect 973 -> merck.hr
+Fail connect 974 -> navabanka.hr
+Fail connect 976 -> dbcargo.hr
+Fail connect 977 -> check.hr
+Fail non hr domain 978 -> entrepreneur.hr  !=  www.entrepreneur.com
+Fail non hr domain 979 -> jumeirah.com.hr  !=  www.jumeirah.com
+Fail non hr domain 981 -> chippendales.hr  !=  chippendales.com
+Fail connect 983 -> dinocopconsulta.hr
+Fail connect 984 -> 4fstore.hr
+Fail non hr domain 985 -> openenglish.com.hr  !=  www.openenglish.com
+Fail non hr domain 986 -> cooksclub.hr  !=  www.cooksclub.com
+Fail connect 987 -> redwood.com.hr
+Fail connect 988 -> e-kongres.hr
+Fail connect 989 -> eurotimeko.hr
+Fail connect 990 -> visiomax.hr
+Fail connect 991 -> hms-servis.hr
+Fail connect 992 -> chicco.hr
+Fail connect 993 -> dolce-gusto.com.hr
+Fail connect 994 -> autodiscover.com.hr
+Fail connect 995 -> tocilizumab.hr
+Fail connect 996 -> vrtlog-srece.hr
+Fail connect 997 -> e-sixt.hr
+Fail connect 998 -> keramag.hr
+Fail connect 999 -> opentable.hr
