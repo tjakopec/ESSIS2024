@@ -56,7 +56,7 @@ with concurrent.futures.ThreadPoolExecutor(len(domains)) as executor:
         count += 1
 
 # write results to file
-f = open('urls.txt', 'a')
+f = open('urls_exercises.txt', 'a')
 for url in furls:
     f.write(url + "\n")
 f.close()
