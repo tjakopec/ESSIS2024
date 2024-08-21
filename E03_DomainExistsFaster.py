@@ -38,19 +38,19 @@ furls = []
 
 with concurrent.futures.ThreadPoolExecutor(len(domains)) as executor:
     futures = [executor.submit(process_domain, domains[index]) for index in range(len(domains))]
-    count = 0  # bacause index starts at 0
+    count = 0  # because index starts at 0
     for future in concurrent.futures.as_completed(futures):
         data = future.result(timeout=10)  # seconds
         if data['url'] != '':
-            hrdomain = urlparse(data['url']).netloc
-            if hrdomain.endswith('.hr'):
-                if hrdomain.endswith(data['domain']):  # www.
+            hr_domain = urlparse(data['url']).netloc
+            if hr_domain.endswith('.hr'):
+                if hr_domain.endswith(data['domain']):  # www.
                     furls.append(data['url'])
                     # print('OK', count, '->', data['domain'], ' is ', hrdomain)
                 else:
-                    print('Fail non same domain', count, '->', data['domain'], ' != ', hrdomain)
+                    print('Fail non same domain', count, '->', data['domain'], ' != ', hr_domain)
             else:
-                print('Fail non hr domain', count, '->', data['domain'], ' != ', hrdomain)
+                print('Fail non hr domain', count, '->', data['domain'], ' != ', hr_domain)
         else:
             print('Fail connect', count, '->', data['domain'])
         count += 1
