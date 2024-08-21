@@ -165,6 +165,22 @@ print(temperature[-1])
 for temp in temperature:
     print(temp)
 
+# dictionaries
+
+temperature = {
+    'midnight': 8,
+    'night': 7,
+    'morning': 13,
+    'noon': 16,
+    'afternoon': 17,
+    'evening': 12,
+}
+print(type(temperature), temperature)
+
+temperature['noon'] = 14
+print(temperature)
+print(temperature['noon'])
+
 
 # methods
 
@@ -175,10 +191,19 @@ def add_numbers(num1, num2):
 
 print(add_numbers(2, 3))
 
-
 # using modules
 # this should be at the beginning of the file!
 import random
+from random import randint
 
 print(random.random())
+
+print(randint(1, 100))
+
+# working with files
+
+file = open('domains.txt', 'r')
+domains = file.readlines()
+for domain in domains:
+    print(domain.strip())
 
