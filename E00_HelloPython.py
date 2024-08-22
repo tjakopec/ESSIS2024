@@ -207,3 +207,11 @@ domains = file.readlines()
 for domain in domains:
     print(domain.strip())
 
+
+
+# input / output from user
+
+domain = input('Please write domain name: ')
+
+
+print('You typed:',domain)

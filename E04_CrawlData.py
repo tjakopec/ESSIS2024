@@ -2,12 +2,22 @@ from bs4 import BeautifulSoup
 import requests
 from w3c_validator import validate  # pip install -U Online-W3C-Validator
 
+
 # good: https://github.com/sethblack/python-seo-analyzer
 
 
 def crawl_data(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'lxml')  # pip install lxml     | 'html.parser' is the build in one
+
+    print(soup.prettify())
+    print(soup.get_text())
+
+    print('Investigate title')
+    print('soup.title', soup.title)
+    print('soup.title.name', soup.title.name)
+    print('soup.title.string', soup.title.string)
+    print('soup.title.parent.name', soup.title.parent.name)
 
     # is page valid to W3C
     messages = validate(url)['messages']
@@ -21,6 +31,8 @@ def crawl_data(url):
         href = link.get('href').strip()
         if href.startswith('http'):
             print(href)
+
+
 '''
     tags = soup.find_all()
     for tag in tags:
@@ -28,6 +40,6 @@ def crawl_data(url):
             print(tag.name, '->', tag.string)
 '''
 
-#crawl_data('https://duco-projekt.hr/')
+# crawl_data('https://duco-projekt.hr/')
 
 crawl_data('https://oziz.ffos.hr/nastava20232024/dlaslo_23/vjezba1zadatak2.html')
