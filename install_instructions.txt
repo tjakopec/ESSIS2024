@@ -1,0 +1,25 @@
+
+Install GIT
+Download
+https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe
+
+Execute setup (next, next, next,...)
+
+Verify GIT install
+Open CMD (win key and type: CMD     press ENTER)
+write: git -v     press enter
+expected result: git version 2.46.0.windows.1
+
+
+
+Install PyCharm (Python IDE - community edition FREE)
+Download
+https://download.jetbrains.com/python/pycharm-community-2024.2.exe
+
+Execute setup (next, next, next,...)
+
+Verify PyCharm install
+Open CMD (win key and type: pycharm     press ENTER)
+Agree with TERMS, skip import and choose get from VCS (Version Control System)
+In URL paste: https://github.com/tjakopec/ESSIS2024.git    and press Clone
+If it ask for Trust Project, Choose Yes!
