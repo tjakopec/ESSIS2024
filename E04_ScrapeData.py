@@ -6,7 +6,7 @@ from w3c_validator import validate  # pip install -U Online-W3C-Validator
 # good: https://github.com/sethblack/python-seo-analyzer
 
 
-def crawl_data(url):
+def scrape_data(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'lxml')  # pip install lxml     | 'html.parser' is the build in one
 
@@ -42,4 +42,6 @@ def crawl_data(url):
 
 # crawl_data('https://duco-projekt.hr/')
 
-crawl_data('https://oziz.ffos.hr/nastava20232024/dlaslo_23/vjezba1zadatak2.html')
+scrape_data('https://oziz.ffos.hr/nastava20232024/dlaslo_23/vjezba1zadatak2.html')
+
+# student task: investigate three URL. Select the URL according to your choice

@@ -5,7 +5,7 @@ import requests
 # Find all adresses
 
 
-def crawl_data(url):
+def scrape_data(url):
     adresses = []
     try:
         page = requests.get(url, timeout=10)
@@ -29,10 +29,13 @@ for d in file.readlines():
 data_list = []
 
 with concurrent.futures.ThreadPoolExecutor(len(urls)) as executor:
-    futures = [executor.submit(crawl_data, urls[index]) for index in range(len(urls))]
+    futures = [executor.submit(scrape_data, urls[index]) for index in range(len(urls))]
     for future in concurrent.futures.as_completed(futures):
         data_list.append(future.result(timeout=10))
 
 for data in data_list:
     for adress in data['adresses']:
         print(adress)
+
+# student task: find all sites that have meta tag with property="og:title"
+

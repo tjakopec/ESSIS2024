@@ -2,24 +2,23 @@ import concurrent.futures
 from bs4 import BeautifulSoup
 import requests
 
-# Find all emails
+# Order all URLs by total links on crawled page
 
-
-def crawl_data(url):
-    emails = []
+def scrape_data(url):
     try:
         page = requests.get(url, timeout=10)
         soup = BeautifulSoup(page.text, 'lxml')  # pip install lxml     | 'html.parser' is the build in one
+        total_links = 0
         for link in soup.findAll('a'):
             try:
                 href = link.get('href').strip()
-                if href.startswith('mailto'):
-                    emails.append(href.replace('mailto:', ''))
+                if href.startswith('http'):
+                    total_links += 1
             except:
                 pass
-        return {'url': url, 'emails': emails}
+        return {'url': url, 'total_links': total_links}
     except:
-        return {'url': url, 'emails': []}
+        return {'url': url, 'total_links': 0}
 
 
 urls = []
@@ -31,10 +30,15 @@ for d in file.readlines():
 data_list = []
 
 with concurrent.futures.ThreadPoolExecutor(len(urls)) as executor:
-    futures = [executor.submit(crawl_data, urls[index]) for index in range(len(urls))]
+    futures = [executor.submit(scrape_data, urls[index]) for index in range(len(urls))]
     for future in concurrent.futures.as_completed(futures):
         data_list.append(future.result(timeout=10))
 
-for data in data_list:
-    for email in data['emails']:
-        print(email)
+sorted_list = sorted(data_list, key=lambda i: i['total_links'], reverse=True)
+
+for data in sorted_list:
+    print(data['total_links'], '\t', data['url'])
+
+
+# student task: order results from smallest to larger
+

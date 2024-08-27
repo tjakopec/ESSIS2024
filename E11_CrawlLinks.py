@@ -14,23 +14,20 @@ svc = webdriver.ChromeService(executable_path=binary_path)
 
 options = Options()
 # do not show chrome - faster
-options.add_argument('--headless=new')
+# options.add_argument('--headless=new')
 options.add_argument("--disable-search-engine-choice-screen")
 driver = webdriver.Chrome(service=svc, options=options)
 
 # deprecated but works in older selenium versions
 # driver = webdriver.Chrome(executable_path=binary_path)
-driver.get('https://www.ffos.unios.hr/odsjek-za-informacijske-znanosti/')
+driver.get('https://www.ffos.unios.hr/')
 
-# elements = driver.find_elements(By.XPATH, '//*[@id="sokrat-news"]/div[2]/div[1]/div/div[1]/div/div')
-elements = driver.find_elements(By.XPATH, "//*[contains(@class, 'owl-item')]")
+elements = driver.find_elements(By.TAG_NAME, 'a')
 for element in elements:
     # print(element.get_attribute('outerHTML'))
-    text = element.get_attribute('textContent')
-    # print(element.get_attribute('textContent'))
-    if 'jakopec' in text.lower():
-        print(text)
-        print('*********')
+    href = element.get_attribute('href')
+    print(href)
+
 
 # student task: find the notification about the exam on website of your faculty
 

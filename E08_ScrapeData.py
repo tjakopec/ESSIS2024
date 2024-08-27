@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 import requests
 from lxml import etree
 
-# urls that tahe three levels of menu
+# urls that have three levels of menu
 
 
-def crawl_data(url):
+def scrape_data(url):
     adresses = []
     try:
         page = requests.get(url, timeout=10)
@@ -32,10 +32,12 @@ for d in file.readlines():
 data_list = []
 
 with concurrent.futures.ThreadPoolExecutor(len(urls)) as executor:
-    futures = [executor.submit(crawl_data, urls[index]) for index in range(len(urls))]
+    futures = [executor.submit(scrape_data, urls[index]) for index in range(len(urls))]
     for future in concurrent.futures.as_completed(futures):
         data_list.append(future.result(timeout=10))
 
 for data in data_list:
     if data['three_levels']:
         print(data['url'])
+
+# student task: find all sites that uses Semantic elements on front page: article and section
